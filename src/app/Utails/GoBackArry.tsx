@@ -31,7 +31,7 @@ export const GoBackArry = [
     bg: "Images/bg4.svg",
     description:
       "Easily manage your requests and track progress using our Trello board.",
-        buttons: false,
+        buttons: true,
         image:"Images/dot.svg",
           buttoname:"Test Analyst",
           size:" w-[1px]    ",

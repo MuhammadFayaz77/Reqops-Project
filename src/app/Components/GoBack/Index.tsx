@@ -23,7 +23,7 @@ export default function GoBack() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 1, 
+    slidesToShow: 1, // Medium screen par 2 slides
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
@@ -31,7 +31,7 @@ export default function GoBack() {
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 768, 
+        breakpoint: 768, // Mobile screens
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
