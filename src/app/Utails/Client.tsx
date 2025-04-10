@@ -1,0 +1,51 @@
+export const ClientTestimonialsArrry = [
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Mark Hoover",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Atif Hussian ",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Mark Hoover",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Atif Hussian ",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Mark Hoover",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+  {
+    image: "Images/Ellipse1.svg",
+    name: "Atif Hussian ",
+    role: "Developer at AppVentures",
+    platform: "Linked",
+    description: "The level of quality and attention to detail from ReqOps is unmatched. They’ve made app testing feel effortless, and the results have dramatically improved our app performance.",
+    video: "Images/video.mp4",
+  },
+ 
+];
