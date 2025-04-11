@@ -11,7 +11,6 @@ import { useEffect, useState } from "react";
 export default function GoBack() {
   const [isMobile, setIsMobile] = useState(false);
 
-  //test
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 1024); // 1024px se choti screen par slider enable
