@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image'
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import ClientTestimonials from "@/app/Components/ClientTestimonials/clientTestimonials";
@@ -45,8 +45,20 @@ const Client = () => {
         zIndex:-1,
       }} />
       <div className="absolute inset-0  md:hidden -z-10 flex flex-col items-center justify-center gap-16">
-      <img src="/Images/1.svg" className="w-full h-auto" />
-      <img src="/Images/2.svg" className="w-full h-auto" />
+     <Image
+      src="/Images/1.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className='w-full h-auto'
+    />
+      <Image
+      src="/Images/2.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className='w-full h-auto'
+    />
     </div>
       <div className="flex justify-center items-center py-16 lg:py-24 mb-20 w-full">
         <div className="w-[95%]">

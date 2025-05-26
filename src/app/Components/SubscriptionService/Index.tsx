@@ -1,4 +1,4 @@
-import RoundedTriangle from "../RoundedTriangle";
+import Image from 'next/image'
 import ServiceCard from "./ServiceCard";
 
 const ServiceArry = [
@@ -40,15 +40,27 @@ export default function Service() {
       
       }}
       /> <div className="absolute inset-0  md:hidden -z-10 flex flex-col items-center justify-center gap-48">
-      <img src="/Images/QAsmall.svg" className="w-full h-auto" />
-      <img src="/Images/QAsmall.svg" className="w-full h-auto" />
+     <Image
+      src="/Images/QAsmall.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className='w-full h-auto'
+    />
+      <Image
+      src="/Images/QAsmall.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className='w-full h-auto'
+    />
     </div>
     
     
  
       <div className="absolute sm:block hidden  top-[5%] sm:top-[15%] w-full px-4 lg:flex flex-col  space-y-6 items-center justify-center text-center ">
         <div className="bg-[#EC57A8] px-9 py-2  rounded-full "></div>
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl leading-tight">
+        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl leading-tight text-black">
           QA Testing as a Subscription Service
         </h1>
       </div>

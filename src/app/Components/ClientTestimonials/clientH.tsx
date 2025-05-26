@@ -8,7 +8,7 @@ function ClientH() {
       <div className="bg-[#EC57A8] w-1/4 lg:w-[7%] py-2     rounded-full"></div>
       
    
-      <h1 className="text-2xl lg:text-4xl font-semibold text-center  pt-9 ">
+      <h1 className="text-2xl lg:text-4xl font-semibold text-center text-black  pt-9 ">
         Client Testimonials
       </h1>
     </div>

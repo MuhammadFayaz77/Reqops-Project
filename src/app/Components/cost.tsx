@@ -1,6 +1,6 @@
 import React from "react";
 import RoundedTriangle from "./RoundedTriangle";
-import Image from "next/image";
+
 
 function Cost() {
   return (

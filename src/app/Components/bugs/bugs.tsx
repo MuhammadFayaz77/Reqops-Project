@@ -6,7 +6,7 @@ import {
   SecurityQuestionsArry,
   SecurityQuestionsArry2,
 } from "@/app/Utails/securityQuestions";
-import { ArrowLeft } from "lucide-react";
+
 
 function Bugs() {
   return (

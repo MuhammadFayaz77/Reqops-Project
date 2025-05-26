@@ -1,10 +1,10 @@
 "use client"
-import React, { useState } from "react";
+
 import RoundedTriangle from "./RoundedTriangle";
 
 
 export default function TestAssist() {
-  const [showTriangle, setShowTriangle] = useState(false);
+ 
 
   return (
     <div className="bg-[#EDF0F5] relative  overflow-hidden   flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16">

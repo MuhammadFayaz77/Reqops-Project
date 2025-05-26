@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
+
 export default function Hire() {
   return (
-    <div className='bg-[#EDF0F5]  '>
+    <div className='bg-[#EDF0F5]  text-black  '>
       
     <div className="flex justify-center items-center flex-col  w-full  bg-[#EDF0F5] lg:pt-12 pt-32 px-4 ">
       <h1 className="text-4xl lg:px-12  lg:text-4xl lg:flex font-bold text-center w-[95%]  absolute  md:mt-16 ">

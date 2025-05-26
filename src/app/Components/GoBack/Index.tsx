@@ -43,29 +43,29 @@ export default function GoBack() {
   return (
     <div className="relative overflow-hidden border-black  flex flex-col items-center text-center">
       <div className="lg:m-[-1px]  lg:relative  absolute lg:left-[45%] m-[-9px] left-[60%]  ">
-        <RoundedTriangle style={{ background: "#EC57A8" }} />
+        <RoundedTriangle style={{ background: "#000000" }} />
       </div>
       <div className="mt-16">
         <div className="w-[5%] px-8 lg:px-10 py-2  rounded-full bg-[#EC57A8] "></div>
       </div>
 
-      <div className="py-0 lg:py-10 px-4 sm:px-6 lg:px-8  pt-8">
+      <div className="py-0 lg:py-10 px-4 sm:px-6 lg:px-8  text-black pt-8">
         <h1 className="flex flex-col sm:flex-row flex-wrap items-center sm:items-center text-2xl sm:text-2xl lg:text-4xl  sm:font-bold leading-tight">
-          We're talking&nbsp;
-          <span className="text-2xl sm:text-5xl lg:text-[70px] font-bold text-black">
-            "You’ll Never Go Back"
+          Were talking
+          <span className="text-2xl sm:text-5xl lg:text-[70px] font-bold ">
+          &quot;You,ll Never Go Back&quot;
           </span>
-          &nbsp;good.
+         good.
         </h1>
       </div>
 
-      <div className="lg:w-[68%] lg:text-pretty lg:text-lg lg:mt lg:mb-16 w-[90%] text-sm pt-7">
+      <div className=" text-black lg:w-[68%] lg:text-pretty lg:text-lg lg:mt lg:mb-16 w-[90%] text-sm pt-7">
         <p>
           Our proprietary system combines AI-driven test automation and manual
           testing expertise to deliver unmatched results. ReqOps Test Assist
           replaces inconsistent freelance testers an other and expensive QA
           agencies for one flat monthly fee, with testing deliverables provided
-          so fast you won’t want to go anywhere else.
+          so fast you won,t want to go anywhere else.
         </p>
       </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosCheckmarkCircle } from "react-icons/io";
-import Card from "./card";
+import Image from 'next/image'
 import PricingCard from "./card"; 
 interface Tester {
   name: string;
@@ -95,27 +95,31 @@ function Main() {
   return (
     <div className="relative mt-24     flex  flex-col sm:flex-row sm:items-start justify-center ">
      <div className="absolute top-32 left-0 w-ful -z-10 sm:hidden overflow-hidden">
-  <img
-    src="Images/sm.svg"
-    alt="Small Screen Background"
-    className="w-full object-top "
-  />
+ <Image
+      src="/Images/sm.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className="w-full object-top "
+    />
 </div>
 
 
       <div className="absolute inset-0 -z-10 hidden sm:block">
-        <img
-          src="Images/lg.svg"
-          alt="Large Screen Background"
-          className="w-full h-full  "
-        />
+    <Image
+      src="/Images/lg.svg"
+      width={50}
+      height={50}
+      alt="Picture of the author"
+      className='w-full h-full'
+    />
       </div>
 
       <div className="relative z-0 flex     "> {/*  z-10  tha */}
         <div className="grid  grid-cols-3 gap-2 lg:w-[90%]  lg:mt-[35%] mt-24    ">
           {testers.map((tester, index) => (
             <div key={index} className={`  ${tester.move}      ${tester.size}`}>
-              <img
+              <Image
                 src={tester.image}
                 alt={tester.name}
                 className="  w-full lg:rounded-t-2xl rounded-t-md     "

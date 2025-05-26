@@ -1,0 +1,33 @@
+"use client";
+import React, { useState } from "react";
+
+import { IoStarSharp } from "react-icons/io5";
+
+export default function StarRate() {
+  const [rating, setRating] = useState<number | null>(null);
+
+
+  return (
+    <div className="flex  gap-2">
+      {[...Array(5)].map((_, index) => {
+        const currentRate = index + 1;
+        return (
+          <label key={currentRate} className="">
+            <input
+              type="radio"
+              name="rate"
+              value={currentRate}
+              onClick={() => setRating(currentRate)}
+              style={{ display: "none" }}
+            />
+            <IoStarSharp 
+              size={30}
+              color={currentRate <= (rating ?? 0) ? "#FFD700" : " #D9D9D9 "}
+              style={{ cursor: "pointer" }}
+            />
+          </label>
+        );
+      })}
+    </div>
+  );
+}

@@ -2,8 +2,8 @@
 "use client"
 import { useEffect, useRef } from "react";
 
-const RoundedTriangle = ({ style }: { style?:any}) => {
-  const triangleRef = useRef<any>(null);
+const RoundedTriangle = ({ style }: { style?:React.CSSProperties}) => {
+  const triangleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (triangleRef.current) {

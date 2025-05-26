@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 import { FaqsArry } from "../Utails/faqs";
+import { GoChevronDown, GoChevronUp } from "react-icons/go";
 function Faqs() {
   const [status, setStatus] = useState(Array(FaqsArry.length).fill(false));
 
@@ -17,7 +18,7 @@ function Faqs() {
    
    <div className="flex justify-center items-center flex-col w-full pb-28   ">
       
-      <h1 className="text-4xl sm:text-5xl md:text-6xl mb-16">FAQ’s</h1>
+      <h1 className="text-4xl sm:text-5xl md:text-6xl mb-16 text-black">FAQ’s</h1>
       
       <div className="flex justify-center  items-center w-full sm:w-[90%] md:w-[90%] lg:w-[80%] flex-col p-4">
       
@@ -33,11 +34,11 @@ function Faqs() {
               className="absolute top-2 right-2 text-lg focus:outline-none"
             >
               {status[index] ? (
-                <img src="Images\Color.svg" alt="Up Arrow" className="w-3 h-3 rotate-180" />
+               
               
-
+    <GoChevronUp  className="text-black"/>
               ) : (
-                <img src="Images\Color.svg" alt="Down Arrow" className="w-3 h-3" />
+           <GoChevronDown className="text-black" />
               )}
             </button>
             <div
@@ -45,7 +46,7 @@ function Faqs() {
                 status[index] ? " opacity-100 max-h-[1000px]" : "max-h-0 opacity-0"
               }`}
             >
-              <p className="text-sm font-light sm:text-sm md:text-base w-[100%] p-1">
+              <p className="text-sm font-light sm:text-sm md:text-base w-[95%] text-black b p-1">
                 {faq.answer}
               </p>
             </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="w-full bg-[#EDF0F5] lg:h-[30vh] ">
+    <div className="w-full text-black bg-[#EDF0F5] lg:h-[30vh] ">
       <div className="flex justify-center">
         <div className="flex w-[95%] justify-between pt-6 pb-6">
           <div>

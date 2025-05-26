@@ -13,7 +13,7 @@ function FindOut() {
       </div>
       <h1 className="py-2   px-9 rounded-full bg-[#ec57a8]  mt-16  "></h1>
 
-      <h1 className="  lg:w-[50%] lg:text-3xl text-2xl sm:text-3xl md:text-4xl pt-6 sm:pt-16 font-bold text-center">
+      <h1 className="  lg:w-[50%] lg:text-3xl text-2xl sm:text-3xl md:text-4xl pt-6 sm:pt-16 font-bold text-center text-black">
         Does Your App Work Like It Should?  (Let’s Find Out!)
       </h1>
       

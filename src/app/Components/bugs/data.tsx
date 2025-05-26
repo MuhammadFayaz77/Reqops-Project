@@ -2,12 +2,11 @@ import React from "react";
 import RoundedTriangle from "../RoundedTriangle";
 import Image from "next/image";
 import {
-  ImageArray,
-  SecurityQuestionsArry,
+ 
   SecurityQuestionsArry3,
   SecurityQuestionsArry4,
 } from "@/app/Utails/securityQuestions";
-import Background from "../Background";
+
 
 function Data() {
   return (

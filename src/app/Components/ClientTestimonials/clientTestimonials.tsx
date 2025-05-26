@@ -1,3 +1,4 @@
+import StarRate from "@/app/star";
 import Image from "next/image";
 
 const ClientTestimonials = ({
@@ -6,7 +7,7 @@ const ClientTestimonials = ({
   role,
   platform,
   description,
-  video,
+
 }: {
   image: string;
   name: string;
@@ -32,7 +33,7 @@ const ClientTestimonials = ({
             />
           </div>
           <div className="px-3">
-            <h1 className="lg:text-2xl text-xl">{name}</h1>
+            <h1 className="lg:text-2xl text-xl text-black">{name}</h1>
             <p className="text-gray-500 lg:text-[12px] text-[10px]">{role}</p>
             <div className="flex items-center text-[10px]">
               <span className="flex gap-1 justify-center items-center text-[16px] text-[#2867B2] font-bold">
@@ -45,21 +46,9 @@ const ClientTestimonials = ({
           </div>
         </div>
         <div className="flex-1">
-          <p className="lg:text-[12px] text-[10px] mt-2">{description}</p>
+          <p className="lg:text-[12px] text-[10px] text-gray-500 mt-2">{description}</p>
           <div className="flex lg:gap-2 gap-0 mt-2">
-            {Array(5)
-              .fill(0)
-              .map((_, i) => (
-                <span key={i}>
-                  <Image
-                    src="Images/grade.svg"
-                    width={33}
-                    height={33}
-                    className="rounded"
-                    alt="grade"
-                  />
-                </span>
-              ))}
+            <StarRate/>
           </div>
         </div>
       </div>
